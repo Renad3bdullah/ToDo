@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(69, 69, 136);
+  color: rgb(164, 139, 236);
+}
+
+h1{
+
+  margin: 3%;
+}
+
+.app {
+  background: #59629e;
+  padding: 20px;
+  height: 100vh;
+}
+
+.todo-list{
+  background: #8677b0;
+  border-radius: 5px;
+  padding: 1px;
+  max-width: 300px;
+}
+
+.todo{
+  background: #422c6d;
+  box-shadow: 4px 4px 4px rgba(57, 50, 92, 0.15);
+  padding: 2px 7px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items:first baseline;
+  justify-content: space-between;
+}
+
+.todo-add{
+  background-color: #524060;
+  box-shadow: 5px 5px 5px rgba(89, 74, 111, 0.15);
+  color: #9f61e6;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
